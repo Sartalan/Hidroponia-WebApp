@@ -54,7 +54,7 @@ export function StartHome () {
 
         <div className="ip-box">
           <input className="ip-text-input" id='ip-data' type="text" placeholder="192.168.77.139:5000" name="name" required minLength="4"  size="14" />
-          <input className='ip-btn' type="button" value="Submit" onClick={submitData}/>
+          <input className='ip-btn' type="button" value="Send" onClick={submitData}/>
         </div>
       </div>
       </>

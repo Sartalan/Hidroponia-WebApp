@@ -182,6 +182,9 @@ color: white;}
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap:2.5em;
+  margin:1.5em;
+  
 }
 
 .ip-text-input {
@@ -190,12 +193,53 @@ color: white;}
   border-radius: .5em;
   font-size: 1.85em;
   height: 50%;
+  border:none;
+  opacity: .85;
+  transition: .1s ease ;
 }
 
 .ip-btn {
   padding: .75em 2em .75em 2em;
-  border-radius: 1em;
-  font-size: 1.5em;
+  border-radius: .35em;
+  opacity: .85;
+  font-size: 1.65em;
   cursor: pointer;
+  border:none;
+  transition: .1s ease ;
+  font-weight: 600;
+  background-color: black;
+  border-bottom: solid 5px white;
+  color:white;
 }
 
+.ip-btn:hover {
+filter: invert();
+border-bottom: solid 8px white;
+
+}
+
+.ip-text-input:hover {
+  filter: invert();
+border-bottom: solid 5px black;
+}
+
+@media screen and (max-width:800px) {
+
+  .ip-box  {
+    gap:5em
+  }
+
+  .start-home-text {
+    font-size: 1.5em;
+  }
+  
+  .spectrum-loader-content {
+    display:none;
+  }
+  .ip-text-input {
+    width: 80%;
+    font-size: 1.5em;
+    padding:.25em .5em .25em .5em;
+   margin:0;
+  }
+}
