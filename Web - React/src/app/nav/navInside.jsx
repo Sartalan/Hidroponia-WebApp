@@ -88,7 +88,7 @@ export function Haupt(){
     return (
       <main className='main'>
         <Routes>
-          <Route path='/Hidroponia/' element={<StartHome/>}/>
+          <Route path='/Hidroponia-WebApp/' element={<StartHome/>}/>
           <Route path='/Hidroponia/home' element={<Home/>}/>
           <Route path='/Hidroponia/status' element={<Status/>}/>
           <Route path='/Hidroponia/about' element={<About/>}/>
