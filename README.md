@@ -1,8 +1,9 @@
 # Importante
 
-Fork de la aplicación web que se desarrolló para el grupo Spectrum antes de que el proyecto se cancelará. 
+Este es casi como un "Fork" de la aplicación web del proyecto de Hidroponia.
+El proyecto avanzó tanto que nos vimos en la necesidad de separarlo en otro repositorio.
 
-La Aplicación web ya se encuentra semi-avanzada, sí se quiere ver su seguimiento hasta este punto desde el primer commit del proyecto, este se encuentra ![aquí](https://github.com/Sartalan/Spectrum-IOT_WebPage)
+Originalmente el código se encontraba [aquí](https://github.com/Sartalan/Hidroponia-Project/tree/Web)
 
 ## Web
 
